@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 80px;
+            margin-top: 50px;
+        }
+
+        .vertical-section,
+        .horizontal-section {
+            text-align: center;
+        }
+
+        
+        .vertical-box {
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .vertical {
+            width: 150px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+            .vertical div {
+                padding: 8px;
+                color: blue;
+            }
+
+            .vertical .home {
+                background-color: orange;
+                color: white;
+            }
+
+        
+        .horizontal-box {
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .horizontal {
+            display: flex;
+        }
+
+            .horizontal div {
+                padding: 10px 20px;
+                border: 1px solid gray;
+                color: blue;
+            }
+
+            .horizontal .home {
+                background-color: gray;
+                color: white;
+            }
+
+            .horizontal .gray-bg {
+                background-color: lightgray;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+       
+        <div class="vertical-section">
+            <div><strong>Vertical Navigation Bar</strong></div>
+            <div class="vertical-box">
+                <div class="vertical">
+                    <div class="home">Home</div>
+                    <div>Java</div>
+                    <div>CSS</div>
+                    <div>HTML</div>
+                    <div>Bootstrap</div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="horizontal-section">
+            <div><strong>Horizontal Navigation Bar</strong></div>
+            <div class="horizontal-box">
+                <div class="horizontal">
+                    <div class="home">Home</div>
+                    <div class="gray-bg">Java</div>
+                    <div class="gray-bg">HTML</div>
+                    <div class="gray-bg">CSS</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

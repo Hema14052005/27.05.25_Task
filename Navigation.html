@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #0f1f2f;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 0 orange; 
+        }
+
+            .navbar a {
+                color: white;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-weight: bold;
+                border-left: 1px solid white;
+            }
+
+                .navbar a:first-child {
+                    border-left: none;
+                }
+
+                .navbar a:hover {
+                    background-color: #222; 
+                }
+
+        .content {
+            background-color: white;
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Users</a>
+        <a href="#">Login</a>
+    </div>
+
+    <div class="content">
+        Hi! I am Hema. Welcome to our Navigation page.
+    </div>
+
+</body>
+</html>
